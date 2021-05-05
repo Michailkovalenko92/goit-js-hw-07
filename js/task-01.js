@@ -17,6 +17,6 @@ const categories = document.querySelectorAll('.item');
   console.log(`В списке ( ${categories.length} ) категории.`);
 
 categories.forEach((el) => console.log(
-`- Категория: ${el.firstElementChild.textContent}\n- Количество элементов-${el.lastElementChild.children.length}`
+`- Категория: ${el.firstElementChild.textContent}\n- Количество элементов: ${el.lastElementChild.children.length}`
    )
 );
